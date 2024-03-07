@@ -1,0 +1,52 @@
+statiscally typed
+ --variables must be declared with the type or it is inferred
+ ----example
+    var name := "favour"
+    var name string = "favour"
+
+    *if type has been inferred or declared it can't be assigned with another type*
+
+
+ strongly typed
+ go is compiled
+  --produces .exe 
+  
+fast compile time
+Built in concurrency
+simple
+garbage collection 
+
+
+============================integers=======================================================================
+
+int16
+---32767
+
+int8
+127 to -127
+
+int32
+2147352577
+----------------------------------------------------------------------------------------------
+formatting strings
+
+--fmt.Print("hello, ")
+--fmt.print("world")
+\n moves to new line
+---print does not add a new line
+-------------------------------------------------------------------------------------------
+fmt.printf("name is _ and age is _")
+--format specifiers
+%v
+fmt.Printf("hi %v", name)
+%q -- places qoutes on value except int values
+fmt.Printf("hi, %q", name) // "favour"
+%T --gets the type of a variable apart from float
+%f --gets the type of floats
+%0.1f -- rounds up outputs to 1dec points
+
+fmt.Printf("score is %0.1f", score)
+
+----------------------sprintf----------------------------------------------
+
+fmt.sprintf -- saves a string 
